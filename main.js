@@ -5,7 +5,7 @@ const Promise = require('bluebird')
 Promise.promisifyAll(needle)
 
 async function main () {
-  $.say('Checking download URLs...')
+  $.say('Checking source and distribution URLs...')
 
   const versions = JSON.parse($.read_file('versions.json'))
   let bad = false
