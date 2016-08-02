@@ -1,5 +1,4 @@
 'use strict'
 
-const $ = require('./common')
-
-$.sh('echo hi')
+require('babel-register')
+require('./main.js')

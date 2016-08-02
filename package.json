@@ -9,7 +9,21 @@
   "author": "Amos Wenger <amos@itch.io>",
   "license": "MIT",
   "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-async-to-module-method": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-register": "^6.11.6",
+    "bluebird": "^3.4.1",
     "colors": "^1.1.2",
-    "munyx": "^1.0.0"
+    "munyx": "^1.0.0",
+    "needle": "^1.0.0"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "rules": {
+      "arrow-parens": [
+        0
+      ]
+    }
   }
 }
